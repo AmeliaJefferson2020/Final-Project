@@ -281,6 +281,13 @@ h1 {
 
 /* QUALITY */
 
+
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .quality__description,
 .quality__img--wrapper {
   width: 50%;
