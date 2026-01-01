@@ -281,11 +281,10 @@ h1 {
 
 /* QUALITY */
 
-
 #quality .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .quality__description,
@@ -343,4 +342,39 @@ h1 {
   color: rgba(100, 21, 255, var(--tw-text-opacity));
   z-index: 0;
   display: block;
+}
+
+/* STEPS */
+
+#steps .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps__description,
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__img--wrapper {
+    display: flex;
+    position: relative;
+}
+
+.steps__img {
+    z-index: 2;
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
 }
