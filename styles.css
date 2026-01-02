@@ -705,7 +705,7 @@ h1 {
   padding-left: 64px;
 }
 
-#testimonials .section__title{
+#testimonials .section__title {
   margin-bottom: 24px;
   line-height: 1.25;
 }
@@ -718,6 +718,10 @@ h1 {
   color: rgba(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
+}
+
+.fa-solid, .fas {
+  font-weight: 900;
 }
 
 .testimonial__title {
@@ -734,7 +738,7 @@ h1 {
   font-weight: 500;
   line-height: 1.625;
   font-size: 16px;
-  color: rgb(74 85 104);
+  color: rgb(74, 85, 104);
 }
 
 .testimonial__bottom {
