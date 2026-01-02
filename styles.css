@@ -898,6 +898,15 @@ h1 {
 
 /* FOOTER */
 
+
+.footer {
+  padding: 96px 32px;
+  background-color: rgb(100, 21, 255);
+  margin-bottom: -32px;
+  position: relative;
+  overflow: hidden;
+}
+
 .footer__blob--1 {
   position: absolute;
   top: 0px;
